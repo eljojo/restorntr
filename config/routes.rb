@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     end
   end
 
-  root to: redirect("/restaurants")
+  root to: redirect("/restaurants.json")
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
